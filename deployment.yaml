@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: gamertech1/my-app:${env.BUILD_NUMBER}
+      - image: gamertech1/my-app:env.BUILD_NUMBER
         name: flaskdemo
         resources: {}
 status: {}
